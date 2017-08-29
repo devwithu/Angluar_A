@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WelcomeMsgComponent } from './welcome-msg.component';
+import { LangSelectorComponent } from './lang-selector.component';
 
-describe('WelcomeMsgComponent', () => {
-  let component: WelcomeMsgComponent;
-  let fixture: ComponentFixture<WelcomeMsgComponent>;
+describe('LangSelectorComponent', () => {
+  let component: LangSelectorComponent;
+  let fixture: ComponentFixture<LangSelectorComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WelcomeMsgComponent ]
+      declarations: [ LangSelectorComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WelcomeMsgComponent);
+    fixture = TestBed.createComponent(LangSelectorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
