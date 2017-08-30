@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { NgWelcomeMsgAppPage } from './app.po';
 
 describe('ng-welcome-msg-app App', () => {
-  let page: AppPage;
+  let page: NgWelcomeMsgAppPage;
 
   beforeEach(() => {
-    page = new AppPage();
+    page = new NgWelcomeMsgAppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
