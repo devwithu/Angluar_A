@@ -12,7 +12,7 @@ const CORE_COMPONENTS = [NavbarComponent, SidebarComponent, FooterComponent,
   MainDashboardComponent, PageNotFoundComponent];
 
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   declarations: CORE_COMPONENTS,
   exports: CORE_COMPONENTS
 })

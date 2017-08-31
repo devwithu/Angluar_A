@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ProductManagementComponent } from './product/product-management/product-management.component';
-import { CategoryManagementComponent } from './category/category-management/category-management.component';
+
 import { MainDashboardComponent } from './scm-main/main-dashboard/main-dashboard.component';
 import { PageNotFoundComponent } from './scm-main/page-not-found/page-not-found.component';
 
