@@ -7,6 +7,7 @@ import { ScmMainModule } from './scm-main/scm-main.module'
 import { ProductModule } from './product/product.module';
 import { CategoryModule } from './category/category.module';
 
+import { AppRoutingModule } from "./app-routing.module";
 
 import { AppComponent } from './app.component';
 
@@ -21,7 +22,9 @@ import { AppComponent } from './app.component';
 
     ScmMainModule,
     ProductModule, 
-    CategoryModule
+    CategoryModule,
+
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
