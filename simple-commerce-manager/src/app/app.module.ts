@@ -10,9 +10,12 @@ import { CategoryModule } from './category/category.module';
 import { AppRoutingModule } from "./app-routing.module";
 
 import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
+import { SharedModule } from './shared/shared.module'; 
 
 import { AppComponent } from './app.component';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 
 @NgModule({
   declarations: [AppComponent],
@@ -25,7 +28,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
 
         /* 3rd Modules */ 
-        AngularFireModule.initializeApp(environment.firebase)
+        AngularFireModule.initializeApp(environment.firebase),
+        AngularFireAuthModule
         
   ],
   providers: [],
