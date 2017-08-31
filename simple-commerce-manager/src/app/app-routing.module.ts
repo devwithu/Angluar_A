@@ -6,8 +6,6 @@ import { MainDashboardComponent } from './scm-main/main-dashboard/main-dashboard
 import { PageNotFoundComponent } from './scm-main/page-not-found/page-not-found.component';
 
 const routes: Routes = [
-    { path: 'product-list', component: ProductManagementComponent },
-    { path: 'category-list', component: CategoryManagementComponent },
     { path: 'total-summary', component: MainDashboardComponent },
     { path: '', redirectTo: 'total-summary', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent }
